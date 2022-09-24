@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 body,
 html {
@@ -34,7 +34,7 @@ html {
 }
 /*needs looking at */
 .fa-brands {
-  padding: 20px;  
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   position: absolute;
@@ -139,7 +139,7 @@ input[type="submit"] {
 }
 /*end of send msg stuff*/
 footer {
-    background-color: rgb(43, 42, 42);
-    color: white;
-    text-align: center;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  text-align: center;
 }
