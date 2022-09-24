@@ -28,7 +28,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: none;
 }
 
   
@@ -51,7 +51,67 @@ body, html {
 .fa-brands :hover {
     opacity: 0.7;
   }
+  button {
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+  }
   .about {
     background-color: white;
     padding: 60px;
+  }
+  h3 {
+    color: white;
+    padding: 60px 60px 40px 60px;
+  }
+  .project1 {
+    background-color: rgb(247, 96, 27);
+    padding-bottom: 30px;
+    padding-top: 15px;
+   
+  }
+  .project-1 {
+    background-color: blueviolet;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 120px;
+    margin-bottom: 30px;
+   
+  }
+  h4 {
+    text-align: center;
+    color: white;
+  }
+.p1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding-top: 10px;
+}
+.project2 {
+    background-color: rgb(247, 96, 27);
+    padding-bottom: 30px;
+    padding-top: 15px;
+   
+  }
+  .project-2 {
+    background-color: rgb(80, 226, 43);
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 120px;
+    margin-bottom: 30px;
+  }
+  .project3 {
+    background-color: rgb(247, 96, 27);
+    padding-bottom: 30px;
+    padding-top: 15px;
+   
+  }
+  .project-3 {
+    background-color: rgb(43, 183, 226);
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 120px;
+    margin-bottom: 30px;
   }
