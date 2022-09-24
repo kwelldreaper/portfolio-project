@@ -63,7 +63,7 @@ body, html {
   }
   h3 {
     color: white;
-    padding: 60px 60px 40px 60px;
+    padding: 60px 60px 20px 60px;
   }
   .project1 {
     background-color: rgb(247, 96, 27);
@@ -115,3 +115,9 @@ body, html {
     padding-top: 120px;
     margin-bottom: 30px;
   }
+#getin {
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
