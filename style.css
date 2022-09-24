@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'Dancing Script', cursive;
 }
 body,
 html {
@@ -33,9 +34,7 @@ html {
 }
 
 .fa-brands {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 20px;  
   text-align: center;
   text-decoration: none;
   position: absolute;
