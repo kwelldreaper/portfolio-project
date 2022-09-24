@@ -8,6 +8,7 @@
 }
 body, html {
     height: 100%;
+    background-color: black;
 }
 
 .hero-image {
@@ -27,6 +28,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
   
@@ -48,4 +50,8 @@ body, html {
   }
 .fa-brands :hover {
     opacity: 0.7;
+  }
+  .about {
+    background-color: white;
+    padding: 60px;
   }
