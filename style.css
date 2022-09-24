@@ -61,9 +61,10 @@ body, html {
     background-color: white;
     padding: 60px;
   }
+  /*all good*/
   h3 {
     color: white;
-    padding: 60px 60px 20px 60px;
+    padding: 20px 60px 20px 60px;
   }
   .project1 {
     background-color: rgb(247, 96, 27);
@@ -71,14 +72,7 @@ body, html {
     padding-top: 15px;
    
   }
-  .project-1 {
-    background-color: blueviolet;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 120px;
-    margin-bottom: 30px;
-   
-  }
+ 
   h4 {
     text-align: center;
     color: white;
@@ -89,35 +83,31 @@ body, html {
     color: white;
     padding-top: 10px;
 }
-.project2 {
-    background-color: rgb(247, 96, 27);
-    padding-bottom: 30px;
-    padding-top: 15px;
-   
-  }
-  .project-2 {
-    background-color: rgb(80, 226, 43);
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 120px;
-    margin-bottom: 30px;
-  }
-  .project3 {
-    background-color: rgb(247, 96, 27);
-    padding-bottom: 30px;
-    padding-top: 15px;
-   
-  }
-  .project-3 {
-    background-color: rgb(43, 183, 226);
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 120px;
-    margin-bottom: 30px;
-  }
 #getin {
     color: white;
     padding-left: 60px;
     padding-right: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+/*test*/
+.card {
+    width: auto;
+    margin: 60px;
+    background-color: rgb(247, 96, 27);
+    padding-bottom: 20px;
+}
+.card-space1 {
+    background-color: blueviolet;
+    padding-top: 150px;
+    margin-bottom: 20px;
+}
+.card-space2 {
+background-color: rgb(80, 226, 43);
+    padding-top: 150px;
+    margin-bottom: 20px;
+}
+.card-space3 {
+    background-color: rgb(43, 183, 226);
+    padding-top: 150px;
+    margin-bottom: 20px;
 }
