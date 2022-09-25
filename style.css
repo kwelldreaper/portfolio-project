@@ -22,7 +22,11 @@ html {
   position: relative;
   display: flex;
 }
-
+img {
+  width: auto;
+  display: flex;
+  flex: auto;
+}
 .hero-text {
   text-align: center;
   position: absolute;
@@ -142,4 +146,17 @@ footer {
   background-color: rgb(43, 42, 42);
   color: white;
   text-align: center;
+}
+.div-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  .div-card {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 250px;
+  }
 }
