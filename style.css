@@ -156,6 +156,7 @@ footer {
 .div-card {
   flex-wrap: wrap;
 }
+/*tablet start*/
 @media screen and (max-width: 800px) {
   .div-card {
     flex-wrap: wrap;
@@ -164,17 +165,48 @@ footer {
     width: 250px;
   }
 }
-@media and (max-width: 1200px) {
+/*tablet end*/
+/*desktop start*/
+@media screen and (min-width: 900px) {
   .div-card {
     flex-wrap: wrap;
   }
   .card {
-    width: 400px;
+    width: 300px;
   }
   section {
-    display: flex;
+    display: block;
   }
   #getin {
     display: none;
   }
+  .h3 {
+    display: none;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  fieldset {
+    width: 45%;
+    height: 400px;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  p {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  .p1 {
+    font-size: 20px;
+  }
+  button {
+    font-size: 20px;
+  }
 }
+/*desktop end*/
