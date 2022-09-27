@@ -38,18 +38,17 @@ img {
 }
 /*needs looking at */
 .fa-brands {
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  position: absolute;
-  color: white;
-  display: inline;
-  top: 2.5px;
-  right: 0;
+  top: 30px;
   width: 30px;
   height: 30px;
-  justify-content: center;
-  flex-direction: column;
+  position: absolute;
+  color: white;
+}
+.fa-github {
+  left: 90vw;
+}
+.fa-linkedin {
+  left: 93vw;
 }
 /*needs looking at */
 button {
@@ -151,7 +150,7 @@ footer {
   display: flex;
   flex-direction: row;
   width: auto;
-  align-items: center;
+  justify-content: space-evenly;
 }
 .div-card {
   flex-wrap: wrap;
